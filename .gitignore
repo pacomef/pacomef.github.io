@@ -1,2 +1,8 @@
 .DS_Store
 notes.md
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+Gemfile.lock

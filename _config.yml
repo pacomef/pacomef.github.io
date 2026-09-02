@@ -1,0 +1,21 @@
+title: Pacome
+description: A running log of things I've built, entered, written, or broken in my free time.
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - notes.md

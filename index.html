@@ -1,153 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pacome</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-  <header class="header">
-    <div class="header-top">
-      <h1>Pacome</h1>
-      <a class="resume-btn" href="resume.pdf" download>Download Resume ↓</a>
+---
+layout: default
+---
+<main class="grid">
+{% assign projects = site.projects | sort: "order" %}
+{% for project in projects %}
+  <a class="card" href="{{ project.url | relative_url }}">
+    <span class="tag">{{ project.tag }}</span>
+    <h3>{{ project.title }}</h3>
+    <p>{{ project.summary }}</p>
+    <div class="photos">
+      <div class="thumb"></div>
+      <div class="thumb"></div>
+      <div class="thumb"></div>
     </div>
-    <p class="tagline">A running log of things I've built, entered, written, or broken in my free time.</p>
-    <ul class="contact">
-      <li><a href="mailto:you@example.com">you@example.com</a></li>
-      <li><a href="https://github.com/pacomef" target="_blank" rel="noopener">github.com/pacomef</a></li>
-      <li><a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">linkedin.com/in/yourprofile</a></li>
-    </ul>
-  </header>
-
-  <main class="grid">
-
-    <a class="card" href="#">
-      <span class="tag">competition</span>
-      <h3>Competitive Programming</h3>
-      <p>Ongoing practice in algorithmic problem solving under contest conditions.</p>
-      <div class="photos">
-        <div class="thumb"></div>
-        <div class="thumb"></div>
-        <div class="thumb"></div>
-      </div>
-      <span class="card-link">details →</span>
-    </a>
-
-    <a class="card" href="#">
-      <span class="tag">project</span>
-      <h3>Project Euler</h3>
-      <p>Working through Project Euler's math and programming problems.</p>
-      <div class="photos">
-        <div class="thumb"></div>
-        <div class="thumb"></div>
-        <div class="thumb"></div>
-      </div>
-      <span class="card-link">repo →</span>
-    </a>
-
-    <a class="card" href="#">
-      <span class="tag">project</span>
-      <h3>Bot Project Euler</h3>
-      <p>A bot built to solve and submit Project Euler problems automatically.</p>
-      <div class="photos">
-        <div class="thumb"></div>
-        <div class="thumb"></div>
-        <div class="thumb"></div>
-      </div>
-      <span class="card-link">repo →</span>
-    </a>
-
-    <a class="card" href="#">
-      <span class="tag">project</span>
-      <h3>C Compiler</h3>
-      <p>A small compiler written from scratch in C.</p>
-      <div class="photos">
-        <div class="thumb"></div>
-        <div class="thumb"></div>
-        <div class="thumb"></div>
-      </div>
-      <span class="card-link">repo →</span>
-    </a>
-
-    <a class="card" href="#">
-      <span class="tag">project</span>
-      <h3>Delaunay Triangulation in Pure C</h3>
-      <p>A Delaunay triangulation algorithm implemented in pure C, no external libraries.</p>
-      <div class="photos">
-        <div class="thumb"></div>
-        <div class="thumb"></div>
-        <div class="thumb"></div>
-      </div>
-      <span class="card-link">repo →</span>
-    </a>
-
-    <a class="card" href="#">
-      <span class="tag">competition</span>
-      <h3>Mathraining</h3>
-      <p>Long-running practice on Mathraining, a platform for olympiad-style math problems.</p>
-      <div class="photos">
-        <div class="thumb"></div>
-        <div class="thumb"></div>
-        <div class="thumb"></div>
-      </div>
-      <span class="card-link">details →</span>
-    </a>
-
-    <a class="card" href="#">
-      <span class="tag">project</span>
-      <h3>Divine Journey</h3>
-      <p>A personal project — details to come.</p>
-      <div class="photos">
-        <div class="thumb"></div>
-        <div class="thumb"></div>
-        <div class="thumb"></div>
-      </div>
-      <span class="card-link">details →</span>
-    </a>
-
-    <a class="card" href="#">
-      <span class="tag">project</span>
-      <h3>Manim Animation</h3>
-      <p>A quick math animation built with Manim, the animation engine behind 3Blue1Brown.</p>
-      <div class="photos">
-        <div class="thumb"></div>
-        <div class="thumb"></div>
-        <div class="thumb"></div>
-      </div>
-      <span class="card-link">watch →</span>
-    </a>
-
-    <a class="card" href="#">
-      <span class="tag">project</span>
-      <h3>Cropbot</h3>
-      <p>A Twitter bot that automatically crops and posts images.</p>
-      <div class="photos">
-        <div class="thumb"></div>
-        <div class="thumb"></div>
-        <div class="thumb"></div>
-      </div>
-      <span class="card-link">repo →</span>
-    </a>
-
-    <a class="card" href="#">
-      <span class="tag">competition</span>
-      <h3>Prologin &amp; Advent of Code</h3>
-      <p>Competed in Prologin and Advent of Code during prépa.</p>
-      <div class="photos">
-        <div class="thumb"></div>
-        <div class="thumb"></div>
-        <div class="thumb"></div>
-      </div>
-      <span class="card-link">details →</span>
-    </a>
-
-  </main>
-
-  <footer class="footer">
-    <p>Last updated August 2026</p>
-  </footer>
-
-</body>
-</html>
+    <span class="card-link">{{ project.link_label | default: "details" }} →</span>
+  </a>
+{% endfor %}
+</main>
