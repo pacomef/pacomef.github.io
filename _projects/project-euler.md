@@ -17,4 +17,4 @@ Voici un exemple:
 
 ![Exemple de problème Project Euler]({{ "/_images/projecteuler.png" | relative_url }})
 
-J'ai commencé à m'y attaquer en 2020, alors que j'avais 16 ans. Ce fut ma première grande découverte de l'algorithmie. 
+J'ai commencé à m'y attaquer en 2020, alors que j'avais 16 ans. Ce fut ma première grande découverte de l'algorithmie, et en vérité des mathématiques. 
