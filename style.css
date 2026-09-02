@@ -83,10 +83,14 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1px;
   background: var(--line);
   border-bottom: 1px solid var(--line);
+}
+
+@media (min-width: 1080px) {
+  .grid { grid-template-columns: repeat(4, 1fr); }
 }
 
 .card {
@@ -105,19 +109,8 @@ body {
   color: var(--bg);
 }
 
-.card.no-link {
-  cursor: default;
-}
-
-.card-head {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 0.7rem;
-  margin-bottom: 0.6rem;
-}
-
 .tag {
+  display: inline-block;
   font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -125,18 +118,14 @@ body {
   background: var(--ink);
   padding: 0.15rem 0.5rem;
   white-space: nowrap;
+  margin-bottom: 0.6rem;
+  align-self: flex-start;
   transition: background 0.18s ease, color 0.18s ease;
 }
 
 .card:hover .tag {
   background: var(--bg);
   color: var(--ink);
-}
-
-.date {
-  font-size: 0.85rem;
-  opacity: 0.6;
-  white-space: nowrap;
 }
 
 .card h3 {
