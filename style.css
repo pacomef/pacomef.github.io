@@ -205,6 +205,14 @@ body {
 
 .post a { color: var(--ink); }
 
+.post img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  margin: 1.2rem 0;
+}
+
 .post .card-link {
   display: inline-block;
   margin-top: 1rem;

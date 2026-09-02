@@ -15,6 +15,9 @@ defaults:
 
 markdown: kramdown
 
+include:
+  - _images
+
 exclude:
   - Gemfile
   - Gemfile.lock
