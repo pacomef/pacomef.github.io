@@ -176,29 +176,42 @@ body {
 /* ---------- individual project page ---------- */
 
 .post {
-  max-width: 640px;
+  max-width: 1040px;
   margin: 0 auto;
   padding: 3rem clamp(1.25rem, 4vw, 3rem) 4rem;
 }
 
 .back-link {
-  display: inline-block;
-  margin-bottom: 1.5rem;
+  display: block;
+  max-width: 640px;
+  margin: 0 auto 1.5rem;
   font-size: 0.85rem;
   color: var(--muted);
   text-decoration: none;
   border-bottom: 1px solid var(--line);
+  width: fit-content;
 }
 
 .back-link:hover { color: var(--ink); }
 
+.post .tag {
+  display: block;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
 .post h1 {
-  margin: 0.6rem 0 1.2rem;
+  max-width: 640px;
+  margin: 0.6rem auto 1.2rem;
   font-size: 1.9rem;
   letter-spacing: -0.01em;
 }
 
 .post p {
+  max-width: 760px;
+  margin: 0 auto 1rem;
   font-size: 1rem;
   color: #333;
 }
@@ -213,12 +226,19 @@ body {
   margin: 1.2rem 0;
 }
 
+.post p.img-wrap {
+  max-width: none;
+  margin: 1.2rem 0;
+}
+
 .post .card-link {
-  display: inline-block;
-  margin-top: 1rem;
+  display: block;
+  max-width: 640px;
+  margin: 1rem auto 0;
   font-size: 0.9rem;
   text-decoration: none;
   border-bottom: 1px solid var(--line);
+  width: fit-content;
 }
 
 /* ---------- footer ---------- */
