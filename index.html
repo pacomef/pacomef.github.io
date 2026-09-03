@@ -4,7 +4,7 @@ layout: default
 <main class="grid">
 {% assign projects = site.projects | sort: "order" %}
 {% for project in projects %}
-  <a class="card" href="{{ project.url | relative_url }}">
+  <a class="card card--{{ project.slug }}" href="{{ project.url | relative_url }}">
     <span class="tag">{{ project.tag }}</span>
     <h3>{{ project.title }}</h3>
     <p>{{ project.summary }}</p>
