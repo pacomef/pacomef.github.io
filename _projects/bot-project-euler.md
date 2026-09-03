@@ -26,12 +26,12 @@ Voici un graphe rapide des technologies utilisées: (Je rappelle que le code est
 ![Graphe des technologies utilisées par le bot]({{ "/_images/pe-bot/workflow.png" | relative_url }})
 {: .img-wrap}
 
-Voici un exemple de graphe que le bot peut générer, avec une simple commande:
+Voici un exemple de graphe que le bot peut générer, avec une simple commande (qui représente ici le nombre de problèmes que j'ai résolu sur les 6 dernières années):
 
 ![Statistiques de progression Project Euler]({{ "/_images/pe-bot/statistics-pacome.png" | relative_url }})
 {: .img-wrap}
 
-Ou encore ce type d'animation, où l'on peut voir en direct la progression de l'utilisateur:
+Ou encore ce type d'animation, où l'on peut voir en direct la progression de l'utilisateur, au fur et à mesure que les problèmes sont publiés:
 
 ![Statistiques de progression Project Euler, version gif]({{ "/_images/pe-bot/pacome_f.gif" | relative_url }})
 {: .img-wrap}
