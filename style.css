@@ -178,6 +178,15 @@ h1, h2, h3 {
 
 .card--project-euler .thumb:first-child {
   object-fit: contain;
+  background:
+    repeating-linear-gradient(
+      135deg,
+      rgba(17, 17, 17, 0.35) 0,
+      rgba(17, 17, 17, 0.35) 1px,
+      transparent 1px,
+      transparent 8px
+    ),
+    var(--bg);
 }
 
 .thumb.placeholder {
