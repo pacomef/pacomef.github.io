@@ -92,6 +92,13 @@ h1, h2, h3 {
 .contact a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line); }
 .contact a:hover { color: var(--muted); border-color: var(--muted); }
 
+.underline {
+  text-decoration-line: underline;
+  text-decoration-color: var(--line);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
 /* ---------- grid of project boxes ---------- */
 
 .grid {
