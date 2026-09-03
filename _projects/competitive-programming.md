@@ -5,6 +5,10 @@ order: 1
 summary: Ongoing practice in algorithmic problem solving under contest conditions.
 link_label: details
 link_url: "#"
+photos:
+  - "/_images/icpc/logo.png"
+  - "/_images/icpc/room.JPEG"
+  - "/_images/icpc/dance.JPEG"
 ---
 
 Résumé si pressé:
@@ -23,4 +27,10 @@ Je participe alors au SWERC en 2024, où mon équipe réalise une performance ho
 
 Je participe encore au SWERC 2025, avec une équipe différente, et avec un peu plus d'entrainement avant la compétition, nous arrivons à finir 14ème! Cela nous qualifie (de justesse) pour les EUC, qui sont la phase de séléction européenne avant la compétition mondiale. Ces derniers ont lieu à Varsovie, en février 2026, et je suis tout à fait honoré de pouvoir y participer. Seules 50 équipes dans toute l'Europe y participent, et les seules représentant français sont l'ENS Ulm, l'X, Télécom Paris, et l'INSA Lyon.
 
+![Salle de concours des EUC 2026 à Varsovie]({{ "/_images/icpc/room.JPEG" | relative_url }})
+{: .img-wrap}
+
 Sur place, beaucoup d'activités sont organisées, mais nous n'arrivons malheureusement pas à nous qualifier pour les mondiaux. De toute façon, ce n'était pas vraiment notre objectif, nous savions qu'il valait mieux simplement profiter du moment, et nous avons alors tout donné pour résoudre le problème I, qui n'a été résolu que par deux équipes, ce qui ne nous a pas donné un très bon classement! Je retiendrais quand même ces 4 jours comme une superbe expérience, et j'espère pouvoir répliquer cela depuis mon université actuelle: Aalto (À Helsinki, en Finlande).
+
+![Cérémonie de clôture des EUC 2026, avec danseurs traditionnels polonais]({{ "/_images/icpc/dance.JPEG" | relative_url }})
+{: .img-wrap}

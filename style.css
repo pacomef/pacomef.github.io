@@ -176,7 +176,8 @@ h1, h2, h3 {
   border: 1px solid currentColor;
 }
 
-.card--project-euler .thumb:first-child {
+.card--project-euler .thumb:first-child,
+.card--competitive-programming .thumb:first-child {
   object-fit: contain;
   background:
     repeating-linear-gradient(
