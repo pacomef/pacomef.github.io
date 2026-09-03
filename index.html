@@ -9,9 +9,15 @@ layout: default
     <h3>{{ project.title }}</h3>
     <p>{{ project.summary }}</p>
     <div class="photos">
-      <div class="thumb"></div>
-      <div class="thumb"></div>
-      <div class="thumb"></div>
+      {% if project.photos %}
+        {% for photo in project.photos %}
+          <img class="thumb" src="{{ photo }}" alt="" loading="lazy">
+        {% endfor %}
+      {% else %}
+        <div class="thumb placeholder"></div>
+        <div class="thumb placeholder"></div>
+        <div class="thumb placeholder"></div>
+      {% endif %}
     </div>
     <span class="card-link">{{ project.link_label | default: "details" }} →</span>
   </a>
