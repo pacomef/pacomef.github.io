@@ -277,6 +277,30 @@ h1, h2, h3 {
   margin: 1.2rem 0;
 }
 
+.post .carousel {
+  position: relative;
+  margin: 1.2rem 0;
+}
+
+.post .carousel-track {
+  display: flex;
+  gap: 0.8rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding-bottom: 0.6rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.post .carousel-track img {
+  flex: 0 0 auto;
+  scroll-snap-align: center;
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  margin: 0;
+}
+
 .post .card-link {
   display: block;
   max-width: 640px;
