@@ -271,6 +271,12 @@ h1, h2, h3 {
   margin: 1.2rem auto;
 }
 
+.post .tweet-embed {
+  display: flex;
+  justify-content: center;
+  margin: 1.2rem 0;
+}
+
 .post .card-link {
   display: block;
   max-width: 640px;
