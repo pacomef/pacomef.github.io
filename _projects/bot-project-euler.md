@@ -43,4 +43,3 @@ Ou encore ce type d'animation, où l'on peut voir en direct la progression de l'
 ![Statistiques de progression Project Euler, version gif]({{ "/_images/pe-bot/pacome_f.gif" | relative_url }})
 {: .img-narrow}
 
-
