@@ -3,7 +3,7 @@ title: Bot Project Euler
 tag: project
 order: 3
 summary: A bot built to solve and submit Project Euler problems automatically.
-link_label: repo
+link_label: details
 link_url: "#"
 photos:
   - "/_images/pe-bot/discordlogo.png"
@@ -16,6 +16,8 @@ Résumé si pressé:
 - Je gère le serveur discord du Project Euler, et je maintiens un bot permettant de faire du suivi des statistiques en temps réel. 
 - C'est un projet à 7000 lignes de code, développé depuis 4 ans environ.
 - Des données sont récupérées toutes les minutes, et j'ai du m'introduire au déploiement de services pour faire en sorte que le bot tourne continuellement.
+
+Repo: [github.com/pacomef/ProjectEulerBot](https://github.com/pacomef/ProjectEulerBot)
 </div>
 
 

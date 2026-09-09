@@ -3,7 +3,7 @@ title: Cropbot
 tag: project
 order: 9
 summary: A Twitter bot that automatically crops and posts images.
-link_label: repo
+link_label: details
 link_url: "#"
 photos:
   - "/_images/cropbot/cropthisbanner.png"
@@ -14,6 +14,8 @@ photos:
 <div class="summary-box" markdown="1">
 Résumé si pressé:
 - J'ai réalisé un bot Twitter, qui était mon premier projet avec le besoin de déployer un service 24h/24, qui avait pour objectif de rogner les images de personnes sur Twitter, lorsqu'une partie claire de l'image était juste dû à une capture d'écran mal faite.
+
+Repo: [github.com/pacomef/twitter-cropbot](https://github.com/pacomef/twitter-cropbot)
 </div>
 
 Ceci est un projet que j'ai réalisé en 2020, et je le met dans ce dossier car c'est sans doute l'un de mes tous premiers projets et je l'aime bien, même s'il n'est pas grandiose.

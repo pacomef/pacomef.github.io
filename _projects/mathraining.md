@@ -6,11 +6,9 @@ summary: Long-running practice on Mathraining, a platform for olympiad-style mat
 link_label: details
 link_url: "#"
 photos:
-  - "/_images/mathraining/mathraining.png"
   - "/_images/mathraining/imo.png"
   - "/_images/mathraining/score.png"
   - "/_images/mathraining/score-graph.png"
-  - "/_images/mathraining/chapitres.png"
 ---
 
 <div class="summary-box" markdown="1">

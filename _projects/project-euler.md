@@ -3,7 +3,7 @@ title: Project Euler
 tag: project
 order: 2
 summary: Working through Project Euler's math and programming problems.
-link_label: repo
+link_label: details
 link_url: "#"
 photos:
   - "https://projecteuler.net/profile/pacome_f.png"

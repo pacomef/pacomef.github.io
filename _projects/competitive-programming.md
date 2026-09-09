@@ -2,7 +2,7 @@
 title: ICPC & Programmation Compétitive
 tag: competition
 order: 1
-summary: Ongoing practice in algorithmic problem solving under contest conditions.
+summary: 
 link_label: details
 link_url: "#"
 photos:
