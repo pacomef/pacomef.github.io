@@ -2,7 +2,7 @@
 title: ICPC & Competitive Programming
 tag: competition
 order: 1
-summary: 
+summary: My journey in competitive programming, notably through the ICPC (SWERC, EUC).
 link_label: details
 link_url: "#"
 lang: en

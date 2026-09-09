@@ -2,7 +2,7 @@
 title: Cropbot
 tag: project
 order: 9
-summary: A Twitter bot that automatically crops and posts images.
+summary: A small early-high-school project to automate image cropping on Twitter.
 link_label: details
 link_url: "#"
 lang: en

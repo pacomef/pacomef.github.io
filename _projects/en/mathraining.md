@@ -2,7 +2,7 @@
 title: Mathraining
 tag: competition
 order: 6
-summary: Long-running practice on Mathraining, a platform for olympiad-style math problems.
+summary: My journey on Mathraining, and more broadly in olympiad math.
 link_label: details
 link_url: "#"
 lang: en

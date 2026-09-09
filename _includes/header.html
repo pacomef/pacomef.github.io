@@ -1,14 +1,24 @@
 <header class="header">
   <div class="header-top">
     <h1><a href="{{ '/' | relative_url }}">Pacôme Fromager</a></h1>
-    <a class="resume-btn" href="{{ '/resume.pdf' | relative_url }}" download>Download Resume ↓</a>
+    <div class="header-actions">
+      {% if page.translation_url %}
+        <div class="lang-switch" role="group" aria-label="Language / Langue">
+          {% if page.lang == "en" %}
+            <a class="lang-option" href="{{ page.translation_url | relative_url }}">FR</a>
+            <span class="lang-option lang-current" aria-current="true">EN</span>
+          {% else %}
+            <span class="lang-option lang-current" aria-current="true">FR</span>
+            <a class="lang-option" href="{{ page.translation_url | relative_url }}">EN</a>
+          {% endif %}
+        </div>
+      {% endif %}
+      <a class="resume-btn" href="{{ '/resume.pdf' | relative_url }}" download>Download Resume ↓</a>
+    </div>
   </div>
   <ul class="contact">
     <li><a href="mailto:pacomefromager@icloud.com">pacomefromager@icloud.com</a></li>
     <li><a href="https://github.com/pacomef" target="_blank" rel="noopener">github.com/pacomef</a></li>
     <li><a href="https://www.linkedin.com/in/pacome-fromager/" target="_blank" rel="noopener">linkedin.com/in/pacome-fromager</a></li>
-    {% if page.translation_url %}
-      <li><a href="{{ page.translation_url | relative_url }}">{% if page.lang == "en" %}Français{% else %}English{% endif %}</a></li>
-    {% endif %}
   </ul>
 </header>

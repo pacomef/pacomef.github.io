@@ -2,7 +2,7 @@
 title: Delaunay Triangulation in Pure C
 tag: project
 order: 4
-summary: A Delaunay triangulation algorithm implemented in pure C, no external libraries.
+summary: A pure C implementation of a Delaunay triangulation algorithm, with the lowest complexity possible.
 link_label: details
 link_url: "#"
 lang: en

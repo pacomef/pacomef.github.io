@@ -2,7 +2,7 @@
 title: C Compiler
 tag: project
 order: 5
-summary: A small compiler written from scratch in C.
+summary: A small compiler from C to assembly.
 link_label: details
 link_url: "#"
 lang: en

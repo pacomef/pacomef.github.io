@@ -2,7 +2,7 @@
 title: Project Euler
 tag: project
 order: 2
-summary: Working through Project Euler's math and programming problems.
+summary: Ma plus grande passion à ce jour, Project Euler, grand site de mathématiques et de programmation.
 link_label: details
 link_url: "#"
 lang: fr

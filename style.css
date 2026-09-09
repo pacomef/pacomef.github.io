@@ -70,6 +70,44 @@ h1, h2, h3 {
   color: var(--bg);
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.lang-switch {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--ink);
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+  overflow: hidden;
+}
+
+.lang-option {
+  padding: 0.45rem 0.7rem;
+  line-height: 1;
+}
+
+.lang-switch a.lang-option {
+  color: var(--ink);
+  text-decoration: none;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.lang-switch a.lang-option:hover {
+  background: var(--muted);
+  color: var(--bg);
+}
+
+.lang-switch .lang-current {
+  background: var(--ink);
+  color: var(--bg);
+  font-weight: 600;
+}
+
 .tagline {
   margin: 0.6rem 0 1.1rem;
   color: var(--muted);
@@ -347,5 +385,5 @@ h1, h2, h3 {
 }
 
 @media print {
-  .footer, .resume-btn { display: none; }
+  .footer, .resume-btn, .lang-switch { display: none; }
 }

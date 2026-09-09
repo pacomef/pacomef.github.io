@@ -2,7 +2,7 @@
 title: Divine Journey
 tag: project
 order: 7
-summary: A personal project — details to come.
+summary: Une aventure sur Minecraft moddé, nécessitant de l'automatisation dans tous les sens.
 link_label: details
 link_url: "#"
 lang: fr

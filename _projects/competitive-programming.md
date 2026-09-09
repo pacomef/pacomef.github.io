@@ -2,7 +2,7 @@
 title: ICPC & Programmation Compétitive
 tag: competition
 order: 1
-summary: 
+summary: Mon parcours en programmation compétitive, à travers l'ICPC (SWERC, EUC) notamment.
 link_label: details
 link_url: "#"
 lang: fr

@@ -2,7 +2,7 @@
 title: Bot Project Euler
 tag: project
 order: 3
-summary: A bot built to solve and submit Project Euler problems automatically.
+summary: Un projet qui tourne 24h/24 depuis 4 ans, avec plusieurs milliers de lignes de code.
 link_label: details
 link_url: "#"
 lang: fr
