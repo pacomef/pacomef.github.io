@@ -301,6 +301,27 @@ h1, h2, h3 {
   margin: 0;
 }
 
+.post .summary-box {
+  max-width: 760px;
+  margin: 0 auto 1.6rem;
+  padding: 1rem 1.2rem;
+  border: 1px solid var(--line);
+}
+
+.post .summary-box p {
+  margin: 0 0 0.5rem;
+  font-weight: 600;
+}
+
+.post .summary-box ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.post .summary-box li {
+  margin: 0.2rem 0;
+}
+
 .post .card-link {
   display: block;
   max-width: 640px;

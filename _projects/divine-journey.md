@@ -5,7 +5,18 @@ order: 7
 summary: A personal project — details to come.
 link_label: details
 link_url: "#"
+photos:
+  - "/_images/dj2/quest_alchemistry.png"
+  - "/_images/dj2/craft_philosopher.png"
+  - "/_images/dj2/integrated_dynamics.png"
 ---
+
+<div class="summary-box" markdown="1">
+Résumé si pressé:
+- J'ai passé énormément d'heures à compléter un jeu, basé sur Minecraft, qui requiert une vraie réflexion continue, et une automatisation totale.
+- Les quantittés d'objets nécessaire à la complétion du jeu sont énormes et c'est principalement un défi logistique.
+- La plupart des personnes tentant le jeu abandonnent après avoir été bloqué suite à un manque d'automatisation.
+</div>
 
 Divine Journey est un "expert modpack" sur Minecraft. Le principe est de modifier très lourdement minecraft pour y ajouter des centaines de machines, de matériaux, des composés chimiques, de la sorcellerie, de l'electricité, des planètes, des ennemis. Chaque "mod" peut vivre indépemendament des autres, mais un modpack les fait intéragir, pour mêler la manière dont certains objets sont crées.
 

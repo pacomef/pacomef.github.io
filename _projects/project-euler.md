@@ -11,12 +11,14 @@ photos:
   - "https://projecteuler.net/resources/images/0671_loop_acceptable.png"
 ---
 
+<div class="summary-box" markdown="1">
 Résumé si pressé:
 - Project Euler est un site d'algorithmie spécialisé en mathématiques.
 - Le site compte un million d'inscrits et je me classe actuellement 560 mondial avec 455 problèmes résolus. 
 - Je suis rentré depuis quelques mois dans l'équipe (restreinte) du site, et j'aide à prendre des décisions sur la direction du site (notamment face à la montée de l'IA).
 - Pour résoudre autant de problème, j'ai du passer beaucoup de temps à lire des papiers de recherche, et à implémenter leur méthodes, et j'ai énormément appris en théorie des nombres notamment.
 - Pour Project Euler, je code beaucoup en python, Sage et CUDA (C++), en fonction des usages.
+</div>
 
 <span class="underline">Introduction:</span> J'aime énormément Project Euler. Le site se concentre sur l'algorithmie, avec un aspect mathématique très important, que n'ont pas les autres sites de programmation compétitive. Le principe est simple: environ 1000 problèmes (1 publié par semaine depuis 2001), et une réponse textuelle à fournir.
 

@@ -5,7 +5,19 @@ order: 5
 summary: A Delaunay triangulation algorithm implemented in pure C, no external libraries.
 link_label: repo
 link_url: "#"
+photos:
+  - "/_images/delaunay/aurora_rings.png"
+  - "/_images/delaunay/kaleidoscope_mandala.png"
+  - "/_images/delaunay/sunset_spiral.png"
 ---
+
+<div class="summary-box" markdown="1">
+Résumé si pressé:
+- J'ai implementé une version de l'algorithme de Bowyer-Watson, servant à créer une triangulation de Delaunay.
+- Le code a été fait entièrement en C pur (et en python pour faire les rendus visuels).
+- J'ai utilisé une structure de R-arbre pour trouver les points à l'intérieur d'un espace en temps logarithmique.
+- J'en ai implementé une version en O(n log n), en trouvant les bonnes structures de données, pour monter jusqu'à plusieurs millions de points, là où la version "classique" marche en O(n^2).
+</div>
 
 Lors de ma deuxième année de prépa, il fallait préparer un projet pour les concours d'ingénieur. Avec deux de mes amis, nous avons choisis de travailler sur la triangulation de delaunay, tous sur un aspect différent: les mathématiques, l'algorithmie, et la physique.
 

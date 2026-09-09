@@ -11,10 +11,12 @@ photos:
   - "/_images/icpc/dance.JPEG"
 ---
 
+<div class="summary-box" markdown="1">
 Résumé si pressé:
 - J'ai participé en 2026 aux finales européennes de programmation compétitive (ICPC EUC), qui regroupe les 150 meilleurs étudiants d'Europe.
 - Je participe régulièrement à des concours en ligne, qu'ils soient sur plusieurs heures ou plusieurs jours.
 - Je me suis qualifié deux fois aux finales de Prologin (sur deux participations).
+</div>
 
 
 <span class="underline">Lycée:</span> Je me suis mis à la programmation compétitive avec les concours Google Kickstart, en 2019 il me semble, et j'ai rapidement compris que j'aimais cela, car je me levais alors à 3 ou 4 heures du matin, pour pouvoir participer aux concours ayant lieu à l'heure américaine. C'est après l'un de ces concours que j'ai découvert Project Euler, en 2020, qui est sans doute un peu moins compétitif, mais certainement dans la même veine.

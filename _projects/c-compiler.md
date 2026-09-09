@@ -5,7 +5,16 @@ order: 4
 summary: A small compiler written from scratch in C.
 link_label: repo
 link_url: "#"
+photos:
+  - "/_images/c-compiler/C.png"
+  - "/_images/c-compiler/ASM.png"
+  - "/_images/c-compiler/python.png"
 ---
+
+<div class="summary-box" markdown="1">
+Résumé si pressé:
+- J'ai réalisé un compilateur C vers assembleur, qui peut réaliser toutes les opérations de la bullet list en bas de cette page. 
+</div>
 
 À mon arrivée à Télécom Paris, nous avons eu un projet de groupe à faire durant le début de l'année, avec pour but de reproduire le comportement d'un compilateur C et d'un interpréteur python.
 

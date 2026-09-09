@@ -11,10 +11,12 @@ photos:
   - "/_images/pe-bot/statistics-pacome.png"
 ---
 
+<div class="summary-box" markdown="1">
 Résumé si pressé:
 - Je gère le serveur discord du Project Euler, et je maintiens un bot permettant de faire du suivi des statistiques en temps réel. 
 - C'est un projet à 7000 lignes de code, développé depuis 4 ans environ.
 - Des données sont récupérées toutes les minutes, et j'ai du m'introduire au déploiement de services pour faire en sorte que le bot tourne continuellement.
+</div>
 
 
 
