@@ -1,7 +1,7 @@
 ---
 title: C Compiler
 tag: project
-order: 4
+order: 5
 summary: A small compiler written from scratch in C.
 link_label: details
 link_url: "#"
