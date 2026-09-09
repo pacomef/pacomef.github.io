@@ -17,14 +17,14 @@ photos:
 Résumé si pressé:
 - Je gère le serveur discord du Project Euler, et je maintiens un bot permettant de faire du suivi des statistiques en temps réel. 
 - C'est un projet à 7000 lignes de code, développé depuis 4 ans environ.
-- Des données sont récupérées toutes les minutes, et j'ai du m'introduire au déploiement de services pour faire en sorte que le bot tourne continuellement.
+- Des données sont récupérées toutes les minutes, et j'ai dû m'introduire au déploiement de services pour faire en sorte que le bot tourne continuellement.
 
 Repo: [github.com/pacomef/ProjectEulerBot](https://github.com/pacomef/ProjectEulerBot)
 </div>
 
 
 
-Comme cela a sans doute déjà été compris avec le post précédent, je suis un grand adepte de Project Euler. Je rejoins la communauté discord en avril 2021, et je participe rapidement à la faire grandir. En janvier 2022, je créé un bot permettant de suivre la progression de tous les membres, en annonçant chacune de leur résolution dans un channel dédié. Aujourd'hui, le serveur compte ~2500 personnes, incluant des membres avec énormément de talent, avec qui il est toujours très sympa de discuter, et j'en suis l'administrateur principal. 
+Comme cela a sans doute déjà été compris avec le post précédent, je suis un grand adepte de Project Euler. Je rejoins la communauté discord en avril 2021, et je participe rapidement à la faire grandir. En janvier 2022, je crée un bot permettant de suivre la progression de tous les membres, en annonçant chacune de leur résolution dans un channel dédié. Aujourd'hui, le serveur compte ~2500 personnes, incluant des membres avec énormément de talent, avec qui il est toujours très sympa de discuter, et j'en suis l'administrateur principal. 
 
 Ce bot est probablement l'un des plus gros projets de ma vie, puisque je le maintiens activement depuis 4 ans, et qu'il possède aujourd'hui énormément de fonctionnalités.
 

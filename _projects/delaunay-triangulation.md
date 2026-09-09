@@ -2,7 +2,7 @@
 title: Delaunay Triangulation in Pure C
 tag: project
 order: 4
-summary: Implémentation en C pure d'un algorithme pour la triangulation de Delaunay, avec la complexité la plus basse possible.
+summary: Implémentation en C pur d'un algorithme pour la triangulation de Delaunay, avec la complexité la plus basse possible.
 link_label: details
 link_url: "#"
 lang: fr
@@ -15,29 +15,29 @@ photos:
 
 <div class="summary-box" markdown="1">
 Résumé si pressé:
-- J'ai implementé une version de l'algorithme de Bowyer-Watson, servant à créer une triangulation de Delaunay.
+- J'ai implémenté une version de l'algorithme de Bowyer-Watson, servant à créer une triangulation de Delaunay.
 - Le code a été fait entièrement en C pur (et en python pour faire les rendus visuels).
 - J'ai utilisé une structure de R-arbre pour trouver les points à l'intérieur d'un espace en temps logarithmique.
-- J'en ai implementé une version en O(n log n), en trouvant les bonnes structures de données, pour monter jusqu'à plusieurs millions de points, là où la version "classique" marche en O(n^2).
+- J'en ai implémenté une version en O(n log n), en trouvant les bonnes structures de données, pour monter jusqu'à plusieurs millions de points, là où la version "classique" marche en O(n^2).
 
 Repo: [github.com/pacomef/delaunay-triangulation](https://github.com/pacomef/delaunay-triangulation)
 </div>
 
-Lors de ma deuxième année de prépa, il fallait préparer un projet pour les concours d'ingénieur. Avec deux de mes amis, nous avons choisis de travailler sur la triangulation de delaunay, tous sur un aspect différent: les mathématiques, l'algorithmie, et la physique.
+Lors de ma deuxième année de prépa, il fallait préparer un projet pour les concours d'ingénieur. Avec deux de mes amis, nous avons choisi de travailler sur la triangulation de Delaunay, tous sur un aspect différent: les mathématiques, l'algorithmie, et la physique.
 
 Je me suis occupé du côté algorithmique, qui consistait "simplement" à implémenter cette dite triangulation de Delaunay, et à pouvoir renvoyer à mes amis une triangulation d'un ensemble de points qu'ils me donneraient.
 
-Pour certaines de nos expériences, notamment pour mon ami travaillant en physique, il fallait pouvoir monter à 5 000 000 de points idéalement. Il fallait donc une complexité adapté (O(n) ou O(n log n)), et la plupart des algorithmes présentés ne tournaient malheureusement qu'en O(n^2). 
+Pour certaines de nos expériences, notamment pour mon ami travaillant en physique, il fallait pouvoir monter à 5 000 000 de points idéalement. Il fallait donc une complexité adaptée (O(n) ou O(n log n)), et la plupart des algorithmes présentés ne tournaient malheureusement qu'en O(n^2). 
 
 Il y avait deux choix principaux pour essayer de baisser la complexité:
 - L'algorithme de Bowyer-Watson, qui marche de manière incrémentale, en corrigeant rapidement la triangulation précédente.
 - Un algorithme de diviser pour régner.
 
-L'algorithme de diviser pour régner nous a semblé expliqué trop légérement dans les papiers que nous avons réussi à trouver, donc j'ai décidé de travailler sur l'algorithme de Bowyer-Watson. C'est un algorithme relativement bien connu, mais en vérité peu de personnes détaillent les structures de données utilisées en pratique.
+L'algorithme de diviser pour régner nous a semblé expliqué trop légèrement dans les papiers que nous avons réussi à trouver, donc j'ai décidé de travailler sur l'algorithme de Bowyer-Watson. C'est un algorithme relativement bien connu, mais en vérité peu de personnes détaillent les structures de données utilisées en pratique.
 
 En plus de cela, tout le projet a été réalisé en C pur, et il a été une règle d'or de n'avoir aucune fuite de mémoire.
 
-Il a donc fallu inférer quelles informations étaient nécessaire et comment faire tourner chaque ligne d'un pseudo code un peu évasif, car aucun des papiers de recherche que nous avons trouvé ne détaillait cela non plus. La structure la plus lourde utilisée est celle de R-arbre, qui permettent de trouver rapidement quels points sont présents dans une région donnée de l'espace. Ensuite, il faut surtout faire en sorte que chaque triangle, segment, point, etc ait autant d'information que possible sur ce qu'il l'entoure.
+Il a donc fallu inférer quelles informations étaient nécessaires et comment faire tourner chaque ligne d'un pseudo code un peu évasif, car aucun des papiers de recherche que nous avons trouvés ne détaillait cela non plus. La structure la plus lourde utilisée est celle de R-arbre, qui permet de trouver rapidement quels points sont présents dans une région donnée de l'espace. Ensuite, il faut surtout faire en sorte que chaque triangle, segment, point, etc ait autant d'information que possible sur ce qui l'entoure.
 
 Rajoutez à cela énormément de debug (et un peu de python pour la visualisation), et vous pourrez obtenir les images suivantes:
 
@@ -59,7 +59,7 @@ Rajoutez à cela énormément de debug (et un peu de python pour la visualisatio
 </div>
 </div>
 
-Voici également un petit aperçu de la complexité, et du temps d'éxecution:
+Voici également un petit aperçu de la complexité, et du temps d'exécution:
 
 ![Graphe des technologies utilisées par le bot]({{ "/_images/delaunay/complexity.png" | relative_url }})
 {: .img-wrap}

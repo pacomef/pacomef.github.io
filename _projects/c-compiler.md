@@ -30,7 +30,7 @@ Ce code (avec le parser) permet de compiler les choses suivantes:
 - Déclaration de variables globales, de tableaux globaux, ...
 - Déclaration de fonctions avec autant de paramètres que voulu
 - Types: int, bool, pointeurs vers n'importe quel type, à n'importe quel niveau d'indexation (int**, etc)
-- Tableaux de dimension quelconque, implementés comme pointeurs de pointeurs
+- Tableaux de dimension quelconque, implémentés comme pointeurs de pointeurs
 - Déclaration de variables sans valeur
 - Pointeurs: &x, (marche même pour &a[i]), *x (peut être utilisé comme *x = 5), et arithmétique des pointeurs
 - Opérations: +, -, /, *, %, &, |, ^, &&, ||, <, >, <=, >=, ==, !=, ! (unaire), - (unaire)

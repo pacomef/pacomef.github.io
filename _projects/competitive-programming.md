@@ -25,16 +25,16 @@ Résumé si pressé:
 
 <span class="underline">Prépa:</span> Au début de ma prépa j'ai découvert Prologin (grâce à des camarades mieux informés que moi), un concours français d'algorithmie, se déroulant en 3 phases, dont les 2 premières sont de la pure programmation compétitive. J'y ai participé 2 ans et me suis qualifié les deux fois pour la finale, qui elle s'éloigne un peu de la programmation compétitive.
 
-<span class="underline">École d'ingénieur:</span> À la fin de la prépa, je découvre les concours internationaux pour les étudiants en études supérieures, comme le SWERC, première séléction en Europe de l'ouest pour accéder à d'autres concours. Avec cela en tête, je tranche entre les deux choix principaux s'offrant à moi: Télécom Paris et Centrale Supélec: je choisis Télécom Paris car Centrale n'envoit pas d'équipes dans ces concours (ou rarement). 
+<span class="underline">École d'ingénieur:</span> À la fin de la prépa, je découvre les concours internationaux pour les étudiants en études supérieures, comme le SWERC, première sélection en Europe de l'ouest pour accéder à d'autres concours. Avec cela en tête, je tranche entre les deux choix principaux s'offrant à moi: Télécom Paris et Centrale Supélec: je choisis Télécom Paris car Centrale n'envoie pas d'équipes dans ces concours (ou rarement). 
 
 Je participe alors au SWERC en 2024, où mon équipe réalise une performance honnête, mais rien d'incroyable.
 
-Je participe encore au SWERC 2025, avec une équipe différente, et avec un peu plus d'entrainement avant la compétition, nous arrivons à finir 14ème! Cela nous qualifie (de justesse) pour les EUC, qui sont la phase de séléction européenne avant la compétition mondiale. Ces derniers ont lieu à Varsovie, en février 2026, et je suis tout à fait honoré de pouvoir y participer. Seules 50 équipes dans toute l'Europe y participent, et les seules représentant français sont l'ENS Ulm, l'X, Télécom Paris, et l'INSA Lyon.
+Je participe encore au SWERC 2025, avec une équipe différente, et avec un peu plus d'entrainement avant la compétition, nous arrivons à finir 14ème! Cela nous qualifie (de justesse) pour les EUC, qui sont la phase de sélection européenne avant la compétition mondiale. Ces derniers ont lieu à Varsovie, en février 2026, et je suis tout à fait honoré de pouvoir y participer. Seules 50 équipes dans toute l'Europe y participent, et les seuls représentants français sont l'ENS Ulm, l'X, Télécom Paris, et l'INSA Lyon.
 
 ![Salle de concours des EUC 2026 à Varsovie]({{ "/_images/icpc/room.JPEG" | relative_url }})
 {: .img-wrap}
 
-Sur place, beaucoup d'activités sont organisées, mais nous n'arrivons malheureusement pas à nous qualifier pour les mondiaux. De toute façon, ce n'était pas vraiment notre objectif, nous savions qu'il valait mieux simplement profiter du moment, et nous avons alors tout donné pour résoudre le problème I, qui n'a été résolu que par deux équipes, ce qui ne nous a pas donné un très bon classement! Je retiendrais quand même ces 4 jours comme une superbe expérience, et j'espère pouvoir répliquer cela depuis mon université actuelle: Aalto (À Helsinki, en Finlande).
+Sur place, beaucoup d'activités sont organisées, mais nous n'arrivons malheureusement pas à nous qualifier pour les mondiaux. De toute façon, ce n'était pas vraiment notre objectif, nous savions qu'il valait mieux simplement profiter du moment, et nous avons alors tout donné pour résoudre le problème I, qui n'a été résolu que par deux équipes, ce qui ne nous a pas donné un très bon classement! Je retiendrai quand même ces 4 jours comme une superbe expérience, et j'espère pouvoir répliquer cela depuis mon université actuelle: Aalto (À Helsinki, en Finlande).
 
 ![Cérémonie de clôture des EUC 2026, avec danseurs traditionnels polonais]({{ "/_images/icpc/dance.JPEG" | relative_url }})
 {: .img-wrap}
