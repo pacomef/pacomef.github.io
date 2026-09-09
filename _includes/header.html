@@ -7,5 +7,8 @@
     <li><a href="mailto:pacomefromager@icloud.com">pacomefromager@icloud.com</a></li>
     <li><a href="https://github.com/pacomef" target="_blank" rel="noopener">github.com/pacomef</a></li>
     <li><a href="https://www.linkedin.com/in/pacome-fromager/" target="_blank" rel="noopener">linkedin.com/in/pacome-fromager</a></li>
+    {% if page.translation_url %}
+      <li><a href="{{ page.translation_url | relative_url }}">{% if page.lang == "en" %}Français{% else %}English{% endif %}</a></li>
+    {% endif %}
   </ul>
 </header>

@@ -5,6 +5,8 @@ order: 6
 summary: Long-running practice on Mathraining, a platform for olympiad-style math problems.
 link_label: details
 link_url: "#"
+lang: fr
+translation_url: /en/projects/mathraining/
 photos:
   - "/_images/mathraining/imo.png"
   - "/_images/mathraining/score.png"

@@ -5,6 +5,8 @@ order: 9
 summary: A Twitter bot that automatically crops and posts images.
 link_label: details
 link_url: "#"
+lang: fr
+translation_url: /en/projects/cropbot/
 photos:
   - "/_images/cropbot/cropthisbanner.png"
   - "/_images/cropbot/presentation.png"

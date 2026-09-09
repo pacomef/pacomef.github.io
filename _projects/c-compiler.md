@@ -5,6 +5,8 @@ order: 5
 summary: A small compiler written from scratch in C.
 link_label: details
 link_url: "#"
+lang: fr
+translation_url: /en/projects/c-compiler/
 photos:
   - "/_images/c-compiler/C.png"
   - "/_images/c-compiler/ASM.png"

@@ -5,6 +5,8 @@ order: 3
 summary: A bot built to solve and submit Project Euler problems automatically.
 link_label: details
 link_url: "#"
+lang: fr
+translation_url: /en/projects/bot-project-euler/
 photos:
   - "/_images/pe-bot/discordlogo.png"
   - "/_images/pe-bot/workflow.png"

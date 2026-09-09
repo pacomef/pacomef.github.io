@@ -5,6 +5,8 @@ order: 1
 summary: 
 link_label: details
 link_url: "#"
+lang: fr
+translation_url: /en/projects/competitive-programming/
 photos:
   - "/_images/icpc/logo.png"
   - "/_images/icpc/room.JPEG"

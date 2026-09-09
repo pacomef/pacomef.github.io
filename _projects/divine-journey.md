@@ -5,6 +5,8 @@ order: 7
 summary: A personal project — details to come.
 link_label: details
 link_url: "#"
+lang: fr
+translation_url: /en/projects/divine-journey/
 photos:
   - "/_images/dj2/quest_alchemistry.png"
   - "/_images/dj2/craft_philosopher.png"

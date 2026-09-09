@@ -5,10 +5,12 @@ order: 4
 summary: A Delaunay triangulation algorithm implemented in pure C, no external libraries.
 link_label: details
 link_url: "#"
+lang: fr
+translation_url: /en/projects/delaunay-triangulation/
 photos:
   - "/_images/delaunay/aurora_rings.png"
-  - "/_images/delaunay/kaleidoscope_mandala.png"
-  - "/_images/delaunay/sunset_spiral.png"
+  - "/_images/delaunay/stained_glass.png"
+  - "/_images/delaunay/coral_reef.png"
 ---
 
 <div class="summary-box" markdown="1">

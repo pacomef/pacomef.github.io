@@ -5,6 +5,8 @@ order: 2
 summary: Working through Project Euler's math and programming problems.
 link_label: details
 link_url: "#"
+lang: fr
+translation_url: /en/projects/project-euler/
 photos:
   - "https://projecteuler.net/profile/pacome_f.png"
   - "https://projecteuler.net/resources/images/0453_quad.png"
