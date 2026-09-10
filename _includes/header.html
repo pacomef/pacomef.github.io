@@ -13,7 +13,11 @@
           {% endif %}
         </div>
       {% endif %}
-      <a class="resume-btn" href="{{ '/resume.pdf' | relative_url }}" download>Download Resume ↓</a>
+      {% if page.lang == "en" %}
+        <a class="resume-btn" href="{{ '/FROMAGER_PACOME_RESUME.pdf' | relative_url }}" download>Download Resume ↓</a>
+      {% else %}
+        <a class="resume-btn" href="{{ '/FROMAGER_PACOME_CV.pdf' | relative_url }}" download>Télécharger le CV ↓</a>
+      {% endif %}
     </div>
   </div>
   <ul class="contact">
